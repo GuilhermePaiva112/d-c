@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    background-color: #1B2B70;
+    background-image: linear-gradient( to top, #1B2B70, #4E5986);
+    background-image: url(dragon_background.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.brawler-regular {
+    font-family: "Brawler", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.jim-nightshade-regular {
+    font-family: "Jim Nightshade", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.tabela_externa{
+    width: 100%;
+    height: 100vb;
+}
+
+.dragon_logo{
+    height: 8vb;
+}
+
+.td_logo{
+    width: 5%;
+    height: 4vb;
+}
+
+.logo{
+    background-color: #2D2E33; 
+    background-image: linear-gradient( to right, #2D2E33, #292929, #000000);
+    background-size: cover;
+    padding: 0;
+    height: 10vb;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nome_site{
+    font-family: "Jim Nightshade";
+    color: aliceblue;
+    font-weight: 100;
+    font-size: 65px;
+    margin: 0;
+}
+
+.td_nome_site{
+    width: 5%;
+}
+
+.icon:hover, .icon_home:hover, .icon_user:hover, .icon_contato:hover, .icon_comprar:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.td_icon{
+    margin: 0;
+    padding: 0;
+    width: 5px;
+}
+
+.td_vazia{
+    width: 5px;
+}
+
+.tabela_interna{
+    height: 50vb;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 5vb;
+    transform: translate(-50%, -25%);
+}
+
+.FraseEfeito{
+    font-family: "Brawler";
+    text-align: center;
+    color: #000000;
+    font-weight: 300;
+}
+
+.Efeito{
+    font-family: "Jim Nightshade";    
+    margin: 0;
+    font-weight: 600;
+}
+
+.header{
+    font-family: "Brawler";
+    font-weight: 300;
+    text-align: center;
+    font-size: 80px;
+}
+
+.btn_comprar{
+    font-family: "Jim Nightshade";
+    padding: 0;
+    font-size: 38px;
+    background-color: #FF2929;
+    background-image: linear-gradient(to bottom, #FF2929, #830909);
+    border: none;
+    border-radius: 100000px;
+    width: 165px;
+    height: 50px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.btn_comprar:hover{
+    cursor: pointer;
+    background-color: #cc2b2b;
+    background-image: linear-gradient(to bottom, #cc2b2b, rgb(83, 13, 13));
+    transition: 0.2s;
+}
+
+.espaçamento{
+    height: 5vb;
+}
+
+.livre{
+    width: 1000px;
+}
+
+.conteudo{
+    background: #9A4A19;
+    background-image: linear-gradient(to bottom, #9A4A19, #4A361E);
+    height: 1000px;
+}
