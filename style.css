@@ -7,6 +7,12 @@ body{
     background-size: cover;
 }
 
+table{
+    margin: 0;
+    padding: 0;
+    width: 70%;
+}
+
 .brawler-regular {
     font-family: "Brawler", serif;
     font-weight: 100;
@@ -44,7 +50,7 @@ h1{
     background-size: cover;
     padding: 0;
     height: 10vb;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 1;
 }
@@ -82,7 +88,7 @@ h1{
     left: 50%;
     top: 50%;
     height: 5vb;
-    transform: translate(-50%, -25%);
+    transform: translate(-50%, -15%);
 }
 
 .FraseEfeito{
@@ -138,5 +144,73 @@ h1{
 .conteudo{
     background: #9A4A19;
     background-image: linear-gradient(to bottom, #9A4A19, #4A361E);
-    height: 1000px;
+    height: 2000px;
+}
+
+td{
+    text-align: left;
+    font-family: "Brawler";
+}
+
+.sobre_empresa{
+    text-align: center;
+}
+
+td .border_radius{
+    border-radius: 40px;
+}
+
+.tabela_interna_interna{
+    position: relative;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 55%);
+    width: 1200px;
+}
+
+.computador{
+    width: 600px;
+}
+
+.contato{
+    background-color: #C9C9C9;
+    background-image: linear-gradient(to bottom, #FFF, #C9C9C9, #A5A5A5);
+    border-radius: 47px;
+    text-align: center;
+    padding: 15px;
+}
+
+.contato h1{
+    font-size: 4em;
+}
+
+.contato h2{
+    font-size: 2em;
+}
+
+.input{
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 50px;
+    width: 700px;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.enviarContato{
+    background-image: linear-gradient(to bottom, #E37B43, #613012);
+    border: none;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: "Brawler";
+}
+
+.enviarContato:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, #ff8a4c, #86441a);
+    transform: scale(1.1);
 }
